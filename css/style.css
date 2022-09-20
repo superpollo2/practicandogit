@@ -3,6 +3,8 @@
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr;   
   background-color:#26272b;
+
+  justify-items: center;
   padding:30px;
   font-size:1.4rem;
   line-height:1.4rem;
@@ -21,11 +23,17 @@
     font-size: 1.2rem;
 }
 
+.img-logos{
+    height: 1.8em;
+    background-color:black;
+    border-radius: 20px;
+}
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
+
     font-family: 'Roboto Condensed', sans-serif;
 }
