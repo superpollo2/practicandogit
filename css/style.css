@@ -1,9 +1,40 @@
 @import url(./header.css);
 @import url(./navCategories.css);
+.site-footer
+{ 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;   
+  background-color:#26272b;
+
+  justify-items: center;
+  padding:30px;
+  font-size:1.4rem;
+  line-height:1.4rem;
+  color:#737373;
+}
+
+.site-footer h6 {
+  font-size:1.2rem;
+  line-height:1.4rem;
+  color:#ffffff;
+  margin: 10px;
+}
+
+.site-footer ul{
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+
+.img-logos{
+    height: 1.8em;
+    background-color:black;
+    border-radius: 20px;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
+
     font-family: 'Roboto Condensed', sans-serif;
 }
